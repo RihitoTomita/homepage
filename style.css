@@ -117,6 +117,7 @@ h2{
 
 /*エフェクト*/
 .dot {
+  box-sizing: border-box;
   position: absolute;
   transform: translate(-50%, -50%);
   top: 50%;
@@ -360,4 +361,5 @@ p.narrow {
   .navbar a::after {
     content: "";
   }
+
 }
